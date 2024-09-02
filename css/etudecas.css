@@ -1,0 +1,103 @@
+.project-container > div{
+    padding: 5% 15%;
+}
+
+.project-container h5{
+    margin: 0;
+    margin-bottom: -3rem;
+}
+
+.project-container h3 a{
+    text-decoration: underline;
+}
+
+.project-container p{
+    max-width: 50%;
+}
+/* .project-container section{
+    display: flex;
+    background-color: #105494;
+    align-items: center;
+}
+.project-container section div{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+}
+.project-container article{
+    display: flex;
+    padding: 5% 15%;
+}
+
+.project-container-image {
+    display: flex;
+    align-items: center;
+}
+
+.project-container-image img{
+    width: 80%;
+    margin: 0;
+    margin-top: -50px;
+    margin-bottom: -150px;
+}
+
+.project-container-image-responsive {
+    display: flex;
+    gap: 50px;
+}
+.project-container-image-responsive img{
+    max-width: 250px;
+} */
+.project-container-full-image-bg {
+    display: flex;
+    background-color: #105494;
+}
+.project-container-full-image-bg img{
+    padding: 5% 15%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.project-container-full-image {
+    display: flex;
+}
+.project-container-full-image img{
+    padding: 0% 15% 5% 15%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.project-container-explanation{
+    display: flex;
+    padding: 2% 15% 5% 15%;
+    gap: 50px;
+}
+
+/* .project-container-responsive-image {
+   
+}
+.project-container-responsive-image img{
+    aspect-ratio: 245 / 533;
+    height: 500px;
+    object-fit: cover;
+} */
+.project-container-responsive-image{
+    --gap: 5rem;
+    --columns : 4;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 15% 5% 15%;
+    gap: var(--gap);
+}
+.project-container-responsive-image img{
+    width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
+}
+.project-container-responsive-image img:hover{
+    transform: scale(1.1);
+    transition: 0,1s ease-in-out;
+}
+.title-responsive{
+    padding: 0% 15%;
+    margin: 0;
+}

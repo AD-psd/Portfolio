@@ -1,0 +1,114 @@
+.presentation-container {
+    background-color: #105494;
+    display: flex;
+    padding: 5% 15%;
+    gap: 5%;
+    color: white;
+}
+
+.presentation-container h4{
+    color: white;
+    font-size: 40px;
+}
+
+.presentation-container a{
+    color: white;
+}
+
+.presentation-container article:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.presentation-container h5{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.presentation-container p:first-child{
+    margin-top: 0px;
+}
+
+
+.presentation-photo {
+    width: 45%;
+    height: 50%;
+    border-radius: 20px;
+
+}
+
+.communication-container {
+    padding: 5% 15% 0% 15%;
+}
+.communication-container h3{
+    width: max-content;
+    display: flex;
+    margin-top: 0px;
+}
+
+.communication-container article{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.communication-container img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.comments-container {
+    padding: 5% 15%;
+}
+.comments-container h3{
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+.comments-container > p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.comments-container article{
+    background-color: orangered;
+    padding: 10px 50px;
+}
+
+.comments-container article div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.comments-container article div p{
+    line-height: 20px;
+}
+
+.comments-container img{
+    width: 10%;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.comments-block {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #105494;
+    padding: 5% 15%;
+    display: flex;
+    color: white;
+}
+.footer h4{
+    color: white;
+}
+.footer article {
+    padding: 20px 20px;
+    max-width: max-content;
+}

@@ -1,0 +1,54 @@
+.landing {
+    color: white;
+    background-image: url(../img/homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 80% -120px;
+    height: 500px;
+    margin-left: 0px;
+    padding: 5% 0% 0% 10%;
+}
+
+.landing h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: 7.5rem;
+}
+
+.landing h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.landing p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.landing-links-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.landing-links-button  {
+    border-radius: 100px;
+    background-color: orangered;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+}

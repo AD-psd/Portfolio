@@ -1,0 +1,118 @@
+.intro-container {
+    background-color:  #105494;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 5% 15%;
+    text-align: center;
+    color: white;
+}
+.intro-container h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+/* .intro-container p{
+    padding: 0 20%;
+}
+
+
+
+.web-intro-container {
+    padding: 5% 15%;
+}
+.web-intro-container h3{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 0px;
+}
+.web-intro-container h2{
+    font-size: 6rem;
+    margin: 0;
+}
+.web-intro-container section{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 5% 0 5% 0;
+}
+.web-intro-container section:hover{
+    background-color: rgb(235, 235, 235);
+    opacity: 100%;
+    transition: 0.5s ease-out;
+}
+.web-intro-container section h3{
+   font-size: 2rem;
+}
+.web-intro-container section h4{
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+    opacity: 70%;
+}
+.web-intro-container img{
+    width: 30rem;
+} */
+
+.intro-container p{
+    padding: 0 20%;
+}
+
+
+
+.web-intro-container {
+    padding: 5% 15%;
+}
+.web-intro-container h3{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 0px;
+}
+.web-intro-container h2{
+    font-size: 6rem;
+    margin: 0;
+}
+.web-intro-container section{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 5% 0 5% 0;
+}
+
+.webcard-container section h3{
+   font-size: 2rem;
+   margin-bottom: 0rem;
+}
+.webcard-container section h4{
+    margin-bottom: -2rem;
+    font-size: 1rem;
+    opacity: 70%;
+}
+.webcard-container:hover{
+    background-color: rgb(235, 235, 235);
+    opacity: 100%;
+    transition: 0.5s ease-out;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    border-left: 0px;
+    border-right: 0px;
+    background-image: url("../img/cat.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webcard-container section{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 5% 15% 5% 15%;
+}
+.webcard-container img{
+    width: 30rem;
+}
+.webcard-container img:hover{
+    transform: scale(1.1);
+    transition: 0,1s ease-in-out;
+}
+.webcard-container a{
+    color: black;
+}
