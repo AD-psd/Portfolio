@@ -106,6 +106,10 @@ h3 {
     section {
         padding: 0 5%;
     }
+    section h4 {
+        line-height: 30px;
+        font-size: 1.2rem;
+    }
     
 }
 
@@ -190,3 +194,68 @@ h4 {
 .presentation-container h4{
     color: white;
 }
+
+@media all and (max-width: 560px) {
+    .card-container {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .card-container p{
+        margin-bottom: 50px;
+    }
+}
+
+/* NAVBAR RESPONSIVE TEL*/
+
+@media screen and (max-width: 560px) {
+    .menu ul {
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .menu {
+        display: block;
+        padding: 30px 5% 5%;
+        text-align: center;
+    }
+
+    .menu ul a {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu ul li {
+        padding: 10px 5% 0px;
+    }
+}
+/* NAVBAR RESPONSIVE TEL*/
+
+/* NAVBAR RESPONSIVE TABLETTE*/
+@media screen and (max-width: 860px) {
+    .menu ul {
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .menu {
+        display: block;
+        padding: 30px 5% 5%;
+        text-align: center;
+    }
+
+    .menu ul a {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu ul li {
+        padding: 10px 5% 0px;
+    }
+}
+/* NAVBAR RESPONSIVE TABLETTE*/

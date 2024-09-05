@@ -35,9 +35,58 @@
 
 }
 
+
+/* RESPONSIVE TEL PRESENTATION LANDING */
+
+        @media screen and (max-width: 560px) {
+            .presentation-container {
+                background-color: #105494;
+                display: block;
+                padding: 20% 15% 20% 15%;
+                gap: 5%;
+                color: white;
+            }
+
+            .presentation-container h4{
+                color: white;
+                font-size: 40px;
+                margin-bottom: 40px;
+                line-height: 40px;
+            }
+            
+            .presentation-container a{
+                color: white;    }
+            
+            .presentation-container article:not(:last-child){
+                margin-bottom: 10px;
+            }
+            
+            .presentation-container h5{
+                margin-bottom: 10px;
+                font-size: 1rem;
+            }
+            .presentation-container p:first-child{
+                margin-top: 0px;
+            }
+
+            .presentation-container p:last-child{
+                margin-bottom: 80px;
+            }
+            
+            .presentation-photo {
+                width: 45%;
+                height: 50%;
+                border-radius: 20px; 
+                display: none;   
+            }
+        }
+
+/* RESPONSIVE TEL PRESENTATION LANDING */
+
 .communication-container {
     padding: 5% 15% 0% 15%;
 }
+
 .communication-container h3{
     width: max-content;
     display: flex;
@@ -57,6 +106,47 @@
     border-radius: 20px;
 
 }
+
+/* RESPONSIVE COMMUNICATION LANDING TEL */
+
+            @media screen and (max-width: 560px){
+
+                .communication-container {
+                    padding: 5% 10% 5% 10%;
+                }
+                .communication-container div{
+                    margin-bottom: 50px;
+                }
+
+                .communication-container h3{
+                    max-width: 335px;
+                    display: flex;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 75px;
+                    line-height: 40px;
+                }
+                .communication-container p{
+                    max-width: 335px;
+                }
+                
+                .communication-container article{
+                    display: block;
+                    gap: 50px;
+                    margin-bottom: 20px;
+                }
+                
+                .communication-container img{
+                    height: 250px;
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius: 20px;
+                
+                }
+            }
+
+/* RESPONSIVE COMMUNICATION LANDING TEL */
+
 
 .comments-container {
     padding: 5% 15%;
@@ -99,6 +189,56 @@
     gap: 20px;
 }
 
+/* RESPONSIVE COMMENTAIRE LANDING TEL */
+            @media screen and (max-width: 560px){
+
+                .comments-container {
+                    padding: 5% 15%;
+                }
+                .comments-container h3{
+                    max-width: 335px;
+                    display: flex;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    line-height: 40px;
+                }
+
+                .comments-container > p{
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+
+                .comments-container article{
+                    background-color: orangered;
+                    padding: 10px 50px;
+                    margin-bottom: 20px;
+                }
+
+                .comments-container article div{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                }
+
+                .comments-container article div p{
+                    line-height: 20px;
+                }
+
+                .comments-container img{
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    border-radius: 100%;
+                }
+
+                .comments-block {
+                    display: block;
+                }
+            }
+
+/* RESPONSIVE COMMENTAIRE LANDING TEL */
+
 .footer {
     background-color: #105494;
     padding: 5% 15%;
@@ -112,3 +252,35 @@
     padding: 20px 20px;
     max-width: max-content;
 }
+
+/* FOOTER RESPONSIVE TEL*/
+
+            @media all and (max-width: 560px) {
+                .footer {
+                    display: block;
+                    text-align: center;
+                    }
+            
+                .footer article {
+                    max-width: none;
+                }
+            }
+
+
+/* FOOTER RESPONSIVE TEL*/
+
+/* FOOTER RESPONSIVE TABLETTE*/
+
+            @media all and (max-width: 860px) {
+                .footer {
+                    display: block;
+                    text-align: center;
+                    }
+            
+                .footer article {
+                    max-width: none;
+                }
+            }
+
+
+/* FOOTER RESPONSIVE TABLETTE*/
